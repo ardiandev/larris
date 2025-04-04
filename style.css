@@ -75,14 +75,14 @@ h1, h2, h3, h4, h5, h6, blockquote, caption, figcaption, p {
 	gap: 10px;
 }
 
-.wp-block-button {
+.wp-block-button__link {
 	transition: transform 0.1s ease-in-out;
 }
 
-.wp-block-button:hover {
+.wp-block-button__link:hover {
 	cursor: pointer;
 }
 
-.wp-block-button:active {
+.wp-block-button__link:active {
 	transform: scale(0.95) !important;
 }
