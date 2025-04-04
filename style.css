@@ -74,3 +74,18 @@ h1, h2, h3, h4, h5, h6, blockquote, caption, figcaption, p {
 	display: flex;
 	gap: 10px;
 }
+
+.wp-block-button {
+	transition: transform 0.1s ease-in-out;
+	border: 1px solid transparent;
+}
+
+.wp-block-button:hover {
+	cursor: pointer;
+	border: 1px solid transparent;
+
+}
+
+.wp-block-button:active {
+	transform: scale(0.95);
+}
