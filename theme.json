@@ -1,0 +1,608 @@
+{
+	"settings": {
+		"appearanceTools": true,
+		"layout": {
+			"contentSize": "620px",
+			"wideSize": "1000px"
+		},
+		"spacing": {
+			"units": [
+				"%",
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+					"name": "System Font",
+					"slug": "system-font"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-100-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-300-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-500-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-700-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-900-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-100-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-300-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-400-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-500-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-700-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-900-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "Roboto, sans-serif",
+					"name": "Roboto",
+					"slug": "roboto"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Open Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/open-sans/open-sans-300-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Open Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/open-sans/open-sans-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Open Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/open-sans/open-sans-500-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Open Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/open-sans/open-sans-600-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Open Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/open-sans/open-sans-700-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Open Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/open-sans/open-sans-800-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Open Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/open-sans/open-sans-300-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Open Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/open-sans/open-sans-400-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Open Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/open-sans/open-sans-500-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Open Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/open-sans/open-sans-600-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Open Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/open-sans/open-sans-700-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Open Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/open-sans/open-sans-800-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Open Sans\", sans-serif",
+					"name": "Open Sans",
+					"slug": "open-sans"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+							"src": [
+								"file:./assets/fonts/inter/inter-100-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+							"src": [
+								"file:./assets/fonts/inter/inter-200-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/inter/inter-300-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/inter/inter-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/inter/inter-500-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/inter/inter-600-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/inter/inter-700-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/inter/inter-800-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/inter/inter-900-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+							"src": [
+								"file:./assets/fonts/inter/inter-100-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+							"src": [
+								"file:./assets/fonts/inter/inter-200-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/inter/inter-300-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/inter/inter-400-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/inter/inter-500-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/inter/inter-600-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/inter/inter-700-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/inter/inter-800-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/inter/inter-900-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "Inter, sans-serif",
+					"name": "Inter",
+					"slug": "inter"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Space Grotesk\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/space-grotesk/space-grotesk-300-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Space Grotesk\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/space-grotesk/space-grotesk-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Space Grotesk\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/space-grotesk/space-grotesk-500-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Space Grotesk\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/space-grotesk/space-grotesk-600-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Space Grotesk\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/space-grotesk/space-grotesk-700-normal.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Space Grotesk\", sans-serif",
+					"name": "Space Grotesk",
+					"slug": "space-grotesk"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Poppins",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-100-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-200-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-300-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-500-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-600-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-700-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-800-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-900-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-100-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-200-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-300-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-400-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-500-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-600-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-700-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-800-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-900-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "Poppins, sans-serif",
+					"name": "Poppins",
+					"slug": "poppins"
+				}
+			]
+		},
+		"useRootPaddingAwareAlignments": true
+	},
+	"styles": {
+		"blocks": {
+			"core/site-title": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--medium)"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--poppins)"
+		}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header"
+		},
+		{
+			"area": "footer",
+			"name": "footer"
+		}
+	],
+	"version": 3,
+	"$schema": "https://schemas.wp.org/wp/6.8/theme.json"
+}
