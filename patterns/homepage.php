@@ -9,4 +9,6 @@
 <!-- wp:pattern {"slug":"larris/header"} /-->
 <!-- wp:pattern {"slug":"larris/hero"} /-->
 <!-- wp:pattern {"slug":"larris/blog-post"} /-->
+<!-- wp:pattern {"slug":"larris/footer"} /-->
+
 

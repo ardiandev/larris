@@ -51,6 +51,13 @@ a:not(.custom-logo-link):not(.wp-block-post-title a):hover::after {
     text-decoration-color: currentColor; /* show underline smoothly */
 }
 
+.post-container {
+    transition: all 0.3s ease-in-out;
+}
+
+.post-container:hover {
+    background-color: white;
+}
 
 @media (max-width: 650px) {
     .hero-two-cols {
