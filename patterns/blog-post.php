@@ -31,7 +31,7 @@
 <!-- /wp:post-template -->
 
 <!-- wp:paragraph {"align":"right","placeholder":"Add text or blocks that will display when a query returns no results."} -->
-<p class="has-text-align-right"><a href="http://localhost/wptest/blog/" data-type="page" data-id="215">View all →</a></p>
+<p class="has-text-align-right"><a href="<?php echo esc_url( home_url( '/blog/' ) ); ?>" data-type="page" data-id="215">View all →</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:query --></div>
 <!-- /wp:group -->
