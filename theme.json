@@ -606,6 +606,7 @@
 					"size": "24px",
 					"slug": "x-large"
 				}
+				
 			]
 		},
 		"useRootPaddingAwareAlignments": true
@@ -624,12 +625,12 @@
 			},
 			"core/post-title": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--medium)"
+					"fontSize": "var(--wp--preset--font-size--x-large)"
 				}
 			},
 			"core/site-title": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--medium)"
+					"fontSize": "var(--wp--preset--font-size--x-large)"
 				}
 			}
 		},
