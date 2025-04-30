@@ -40,7 +40,7 @@ a:not(.custom-logo-link):not(.wp-block-post-title a):hover::after {
     transform-origin: bottom left;
 } */
 
-.wp-block-post-title a, .wp-block-navigation-item__content, .taxonomy-category a, p > a{
+.wp-block-post-title a, .wp-block-navigation-item__content, .taxonomy-category a, p > a, h1 > a, .wp-block-site-title a {
     text-decoration: none;  
     transition: text-decoration-color 0.5s ease-in-out, text-underline-offset 0.5s ease-in-out;
     text-decoration-line: underline;
@@ -48,7 +48,7 @@ a:not(.custom-logo-link):not(.wp-block-post-title a):hover::after {
     text-underline-offset: 4px; 
 }
 
-.wp-block-post-title a:hover, .wp-block-navigation-item__content:hover, .taxonomy-category a:hover, p > a:hover {
+.wp-block-post-title a:hover, .wp-block-navigation-item__content:hover, .taxonomy-category a:hover, p > a:hover, h1 > a:hover, .wp-block-site-title a:hover {
     text-decoration-color: currentColor; 
 }
 
@@ -59,6 +59,13 @@ a:not(.custom-logo-link):not(.wp-block-post-title a):hover::after {
 .post-container:hover {
     background-color: white;
 }
+
+
+.wp-block-post-author__content {
+    display: flex;
+}
+
+
 
 @media (max-width: 650px) {
     .hero-two-cols {
