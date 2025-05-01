@@ -5,24 +5,24 @@
  * Categories: header
  */
 ?>
-<!-- wp:group {"align":"full","layout":{"type":"constrained","contentSize":""}} -->
-<div class="wp-block-group alignfull"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group"><!-- wp:site-logo {"width":40,"className":"is-style-rounded"} /-->
-
-<!-- wp:site-title {"style":{"typography":{"fontStyle":"normal","fontWeight":"700","fontSize":"1.4rem"}},"fontFamily":"roboto"} /--></div>
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+    <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+    <div class="wp-block-group"><!-- wp:site-logo {"width":50,"className":"is-style-rounded"} /-->
+    
+    <!-- wp:site-title {"fontSize":"medium"} /--></div>
+    <!-- /wp:group -->
+    
+    <!-- wp:navigation -->
+    <!-- wp:navigation-link {"label":"About","url":"http://localhost/wptest/"} /-->
+    
+    <!-- wp:navigation-link {"label":"Projects","url":"http://localhost/wptest/projects/"} /-->
+    
+    <!-- wp:navigation-link {"label":"Blog","url":"http://localhost/wptest/blog/"} /-->
+    
+    <!-- wp:navigation-link {"label":"Stories","url":"http://localhost/wptest/stories/"} /-->
+    
+    <!-- wp:navigation-link {"label":"Contact","url":"http://localhost/wptest/contact/"} /-->
+    <!-- /wp:navigation --></div>
+    <!-- /wp:group --></div>
 <!-- /wp:group -->
-
-<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group"><!-- wp:navigation {"icon":"menu","className":"nav-container","style":{"spacing":{"blockGap":"10px"}},"fontSize":"medium","layout":{"type":"flex","justifyContent":"center"}} /--></div>
-<!-- /wp:group --></div>
-<!-- /wp:group -->
-
-<!-- wp:separator {"style":{"spacing":{"margin":{"top":"10px","bottom":"10px"}}}} -->
-<hr class="wp-block-separator has-alpha-channel-opacity" style="margin-top:10px;margin-bottom:10px"/>
-<!-- /wp:separator --></div>
-<!-- /wp:group -->
-
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->
