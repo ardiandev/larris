@@ -6,8 +6,8 @@
  */
 ?>
 
-<!-- wp:group {"style":{"spacing":{"margin":{"top":"40px","bottom":"40px"},"padding":{"right":"var:preset|spacing|30","left":"var:preset|spacing|30"}}},"layout":{"type":"constrained","contentSize":""}} -->
-<div class="wp-block-group" style="margin-top:40px;margin-bottom:40px;padding-right:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:heading {"fontSize":"custom-1"} -->
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"40px","bottom":"40px"}}},"layout":{"type":"constrained","contentSize":""}} -->
+<div class="wp-block-group" style="margin-top:40px;margin-bottom:40px"><!-- wp:heading {"fontSize":"custom-1"} -->
 <h2 class="wp-block-heading has-custom-1-font-size">POSTS</h2>
 <!-- /wp:heading -->
 
