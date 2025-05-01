@@ -5,7 +5,7 @@
 			"palette": []
 		},
 		"layout": {
-			"contentSize": "640px",
+			"contentSize": "700px",
 			"wideSize": "1000px"
 		},
 		"spacing": {
@@ -584,26 +584,36 @@
 			],
 			"fontSizes": [
 				{
-					"fluid": true,
+					"fluid": false,
 					"name": "Small",
-					"size": "14px",
+					"size": "0.75rem",
 					"slug": "small"
 				},
 				{
-					"fluid": true,
+					"fluid": {
+						"max": "1.25rem",
+						"min": "1rem"
+					},
 					"name": "Medium",
-					"size": "16px",
+					"size": "1rem",
 					"slug": "medium"
 				},
 				{
-					"fluid": true,
+					"fluid": {
+						"max": "2rem",
+						"min": "1.6rem"
+					},
 					"name": "Large",
-					"size": "20px",
+					"size": "1.6rem",
 					"slug": "large"
 				},
 				{
+					"fluid": {
+						"max": "3rem",
+						"min": "2.6rem"
+					},
 					"name": "XL Large",
-					"size": "24px",
+					"size": "2.6rem",
 					"slug": "x-large"
 				}
 				
