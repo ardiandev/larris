@@ -6,6 +6,14 @@
  */
 ?>
 
+<p><?php
+/**
+ * Title: Hero
+ * Slug: larris/hero
+ * Categories: banner
+ */
+?></p>
+
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"30px"},"padding":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained","contentSize":""}} -->
 <div class="wp-block-group" style="margin-top:30px;padding-top:0;padding-bottom:0"><!-- wp:heading {"fontSize":"large"} -->
 <h2 class="wp-block-heading has-large-font-size">Hi there</h2>
@@ -17,9 +25,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:social-links {"openInNewTab":true,"className":"is-style-logos-only","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|20"}}}} -->
-<ul class="wp-block-social-links is-style-logos-only">
-
-<!-- wp:social-link {"url":"admin@ardianpradana.com","service":"mail"} /-->
+<ul class="wp-block-social-links is-style-logos-only"><!-- wp:social-link {"url":"<?php echo esc_url( home_url( '/contact/' ) ); ?>","service":"mail"} /-->
 
 <!-- wp:social-link {"url":"https://github.com/ardiandev","service":"github"} /-->
 
