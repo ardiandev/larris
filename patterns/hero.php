@@ -6,22 +6,26 @@
  */
 ?>
 
-<!-- wp:group {"style":{"spacing":{"margin":{"top":"30px"},"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"constrained","contentSize":""}} -->
-<div class="wp-block-group" style="margin-top:30px;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:columns {"verticalAlignment":"center","className":"hero-two-cols","style":{"spacing":{"blockGap":{"left":"20px"}}}} -->
-<div class="wp-block-columns are-vertically-aligned-center hero-two-cols"><!-- wp:column {"verticalAlignment":"center"} -->
-<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"fontSize":"x-large"} -->
-<h2 class="wp-block-heading has-x-large-font-size">Hi there</h2>
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"30px"},"padding":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained","contentSize":""}} -->
+<div class="wp-block-group" style="margin-top:30px;padding-top:0;padding-bottom:0"><!-- wp:heading {"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size">Hi there</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"typography":{"lineHeight":1.6}},"fontSize":"medium"} -->
 <p class="has-medium-font-size" style="line-height:1.6">I’m Ardian—a WordPress Developer, and hobby web developer. This site’s dedicated to my current WordPress projects and explorations into related technologies. Have a look around.</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column -->
+<!-- /wp:paragraph -->
 
-<!-- wp:column {"verticalAlignment":"bottom","width":"160px"} -->
-<div class="wp-block-column is-vertically-aligned-bottom" style="flex-basis:160px"><!-- wp:image {"width":"130px","sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
-<figure class="wp-block-image size-full is-resized is-style-rounded"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/profile-picture.png" alt="profile picture" style="width:130px"/></figure>
-<!-- /wp:image --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns --></div>
+<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:social-links {"openInNewTab":true,"className":"is-style-logos-only","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|20"}}}} -->
+<ul class="wp-block-social-links is-style-logos-only">
+
+<!-- wp:social-link {"url":"admin@ardianpradana.com","service":"mail"} /-->
+
+<!-- wp:social-link {"url":"https://github.com/ardiandev","service":"github"} /-->
+
+<!-- wp:social-link {"url":"https://bsky.app/profile/ardianpradana.com\u0022","service":"bluesky"} /-->
+
+<!-- wp:social-link {"url":"https://www.linkedin.com/in/ardianpradana/","service":"linkedin"} /--></ul>
+<!-- /wp:social-links --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
