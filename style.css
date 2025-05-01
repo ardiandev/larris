@@ -66,6 +66,10 @@ a:not(.custom-logo-link):not(.wp-block-post-title a):hover::after {
 }
 
 
+.wp-block-post-excerpt__more-link {
+    border: 1px solid black;
+    padding: 5px 10px;
+}
 
 @media (max-width: 650px) {
     .hero-two-cols {
