@@ -6,7 +6,8 @@
  */
 ?>
 
-<!-- wp:pattern {"slug":"larris/header"} /-->
+<!-- wp:template-part {"slug":"header"} /-->
+
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"40px","bottom":"40px"}}},"layout":{"type":"constrained","contentSize":""}} -->
 <div class="wp-block-group" style="margin-top:40px;margin-bottom:40px"><!-- wp:heading {"fontSize":"custom-1"} -->
