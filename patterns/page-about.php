@@ -30,6 +30,4 @@
     <!-- /wp:paragraph --></div>
     <!-- /wp:group -->
     
-    <!-- wp:pattern {"slug":"larris/footer"} /-->
-
 <!-- wp:pattern {"slug":"larris/footer"} /-->
