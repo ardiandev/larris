@@ -591,7 +591,7 @@
 				},
 				{
 					"fluid": {
-						"max": "1.25rem",
+						"max": "1rem",
 						"min": "1rem"
 					},
 					"name": "Medium",
@@ -630,7 +630,7 @@
 			},
 			"core/post-template": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
+					"fontSize": "var(--wp--preset--font-size--medium)"
 				}
 			},
 			"core/post-title": {

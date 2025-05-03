@@ -26,7 +26,7 @@
 
 <!-- wp:post-title {"isLink":true,"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"0","bottom":"0"}}},"fontSize":"medium"} /-->
 
-<!-- wp:post-excerpt {"moreText":"Read more","excerptLength":40,"style":{"spacing":{"margin":{"top":"10px","bottom":"0"},"padding":{"top":"0","bottom":"0"}},"typography":{"fontSize":"0.9rem"}}} /--></div>
+<!-- wp:post-excerpt {"moreText":"Read more","excerptLength":40,"style":{"spacing":{"margin":{"top":"10px","bottom":"0"},"padding":{"top":"0","bottom":"0"}},"typography":{"fontSize":"0.3rem"}}} /--></div>
 <!-- /wp:group -->
 <!-- /wp:post-template -->
 
