@@ -6,9 +6,10 @@
  */
 ?>
 
-<!-- wp:pattern {"slug":"larris/header"} /-->
+<!-- wp:template-part {"slug":"header"} /-->
 <!-- wp:pattern {"slug":"larris/hero"} /-->
 <!-- wp:pattern {"slug":"larris/blog-post"} /-->
-<!-- wp:pattern {"slug":"larris/footer"} /-->
+<!-- wp:template-part {"slug":"footer"} /-->
+
 
 

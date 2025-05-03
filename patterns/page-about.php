@@ -30,4 +30,5 @@
     <!-- /wp:paragraph --></div>
     <!-- /wp:group -->
     
-<!-- wp:pattern {"slug":"larris/footer"} /-->
+<!-- wp:template-part {"slug":"footer"} /-->
+
