@@ -14,6 +14,6 @@
 <!-- wp:site-title {"fontSize":"medium"} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:navigation {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}}} /--></div>
+<!-- wp:navigation {"ref":1664,"style":{"spacing":{"blockGap":"var:preset|spacing|30"}}} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

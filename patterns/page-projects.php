@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Project Page
- * Slug: larris/page-project
+ * Slug: larris/page-projects
  * Categories: banner
  */
 ?>
