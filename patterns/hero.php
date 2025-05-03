@@ -6,14 +6,6 @@
  */
 ?>
 
-<p><?php
-/**
- * Title: Hero
- * Slug: larris/hero
- * Categories: banner
- */
-?></p>
-
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"30px"},"padding":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained","contentSize":""}} -->
 <div class="wp-block-group" style="margin-top:30px;padding-top:0;padding-bottom:0"><!-- wp:heading {"fontSize":"large"} -->
 <h2 class="wp-block-heading has-large-font-size">Hi there</h2>

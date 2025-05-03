@@ -40,7 +40,7 @@ a:not(.custom-logo-link):not(.wp-block-post-title a):hover::after {
     transform-origin: bottom left;
 } */
 
-.wp-block-post-title a, .wp-block-navigation-item__content, .taxonomy-category a, p > a, h1 > a, .wp-block-site-title a {
+/* .wp-block-post-title a, .wp-block-navigation-item__content, .taxonomy-category a, p > a, h1 > a, .wp-block-site-title a {
     text-decoration: none;  
     transition: text-decoration-color 0.5s ease-in-out, text-underline-offset 0.5s ease-in-out;
     text-decoration-line: underline;
@@ -51,6 +51,10 @@ a:not(.custom-logo-link):not(.wp-block-post-title a):hover::after {
 .wp-block-post-title a:hover, .wp-block-navigation-item__content:hover, .taxonomy-category a:hover, p > a:hover, h1 > a:hover, .wp-block-site-title a:hover {
     text-decoration-color: currentColor; 
 }
+
+.wp-block-navigation-item__content:active {
+    text-decoration-color: currentColor; 
+} */
 
 .post-container {
     transition: all 0.3s ease-in-out;

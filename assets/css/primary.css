@@ -1,0 +1,26 @@
+.wp-block-post-title a,
+.wp-block-navigation-item__content,
+.taxonomy-category a,
+p > a,
+h1 > a,
+.wp-block-site-title a {
+    text-decoration: none;
+    text-decoration-line: underline;
+    text-decoration-color: transparent;
+    text-underline-offset: 4px;
+    transition:
+        text-decoration-color 0.3s ease,
+        text-underline-offset 0.3s ease;
+}
+
+/* On hover and active — underline only, no layout shift */
+.wp-block-post-title a:hover,
+.wp-block-navigation-item__content:hover,
+.taxonomy-category a:hover,
+p > a:hover,
+h1 > a:hover,
+.wp-block-site-title a:hover,
+.current-menu-item > .wp-block-navigation-item__content,
+.is-active > .wp-block-navigation-item__content {
+    text-decoration-color: currentColor;
+}
