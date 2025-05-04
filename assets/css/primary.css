@@ -24,3 +24,14 @@ h1 > a:hover,
 .is-active > .wp-block-navigation-item__content {
     text-decoration-color: currentColor;
 }
+
+
+
+p a {
+    text-decoration: underline;
+}
+
+
+.wp-block-post-excerpt__more-link {
+    text-decoration: none;
+}
