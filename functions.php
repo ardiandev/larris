@@ -31,3 +31,11 @@ function larris_enqueue_script() {
 		true
 	);
 }
+
+
+
+// Include the TGM Plugin Activation class from the includes folder
+require_once get_template_directory() . '/includes/tgmpa-settings/class-tgm-plugin-activation.php';
+// Include the TGM Plugin Activation configuration file
+require_once get_template_directory() . '/includes/tgmpa-settings/tgm-plugin-activation.php';
+add_action( 'tgmpa_register', 'register_required_plugins' );
