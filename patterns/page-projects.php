@@ -18,9 +18,8 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:create-block/larris-github-showcase {"repoLink":"https://github.com/ardiandev/larris","repoData":{"name":"larris","description":" A custom WordPress block theme named Larris, designed for flexibility, modern styling, and full site editing.","stars":0,"forks":0,"api_url":"https://api.github.com/repos/ardiandev/larris"},"repoPage":""} /-->
+<div class="wp-block-group">
 
-<!-- wp:create-block/larris-github-showcase {"repoLink":"https://github.com/ardiandev/larris-form","repoData":{"name":"larris-form","description":"A simple WordPress contact form block with AJAX, math-based CAPTCHA, and spam protection. ","stars":0,"forks":0,"api_url":"https://api.github.com/repos/ardiandev/larris-form"}} /-->
 
 <!-- wp:create-block/larris-github-showcase {"repoLink":"https://github.com/ardiandev/larris-github-showcase","repoData":{"name":"larris-github-showcase","description":"A WordPress block plugin that fetches and displays GitHub repository details like name, stars, forks, and description. Easily integrate repository info into your WordPress site with a user-friendly interface.","stars":0,"forks":0,"api_url":"https://api.github.com/repos/ardiandev/larris-github-showcase"}} /-->
 
