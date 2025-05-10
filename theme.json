@@ -22,11 +22,6 @@
 			"defaultFontSizes": false,
 			"fontFamilies": [
 				{
-					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
-					"name": "System Font",
-					"slug": "system-font"
-				},
-				{
 					"fontFace": [
 						{
 							"fontFamily": "Roboto",
@@ -128,109 +123,6 @@
 					"fontFamily": "Roboto, sans-serif",
 					"name": "Roboto",
 					"slug": "roboto"
-				},
-				{
-					"fontFace": [
-						{
-							"fontFamily": "\"Open Sans\"",
-							"fontStyle": "normal",
-							"fontWeight": "300",
-							"src": [
-								"file:./assets/fonts/open-sans/open-sans-300-normal.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"Open Sans\"",
-							"fontStyle": "normal",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/open-sans/open-sans-400-normal.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"Open Sans\"",
-							"fontStyle": "normal",
-							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/open-sans/open-sans-500-normal.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"Open Sans\"",
-							"fontStyle": "normal",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/open-sans/open-sans-600-normal.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"Open Sans\"",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/open-sans/open-sans-700-normal.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"Open Sans\"",
-							"fontStyle": "normal",
-							"fontWeight": "800",
-							"src": [
-								"file:./assets/fonts/open-sans/open-sans-800-normal.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"Open Sans\"",
-							"fontStyle": "italic",
-							"fontWeight": "300",
-							"src": [
-								"file:./assets/fonts/open-sans/open-sans-300-italic.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"Open Sans\"",
-							"fontStyle": "italic",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/open-sans/open-sans-400-italic.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"Open Sans\"",
-							"fontStyle": "italic",
-							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/open-sans/open-sans-500-italic.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"Open Sans\"",
-							"fontStyle": "italic",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/open-sans/open-sans-600-italic.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"Open Sans\"",
-							"fontStyle": "italic",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/open-sans/open-sans-700-italic.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"Open Sans\"",
-							"fontStyle": "italic",
-							"fontWeight": "800",
-							"src": [
-								"file:./assets/fonts/open-sans/open-sans-800-italic.woff2"
-							]
-						}
-					],
-					"fontFamily": "\"Open Sans\", sans-serif",
-					"name": "Open Sans",
-					"slug": "open-sans"
 				},
 				{
 					"fontFace": [
@@ -382,53 +274,6 @@
 					"fontFamily": "Inter, sans-serif",
 					"name": "Inter",
 					"slug": "inter"
-				},
-				{
-					"fontFace": [
-						{
-							"fontFamily": "\"Space Grotesk\"",
-							"fontStyle": "normal",
-							"fontWeight": "300",
-							"src": [
-								"file:./assets/fonts/space-grotesk/space-grotesk-300-normal.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"Space Grotesk\"",
-							"fontStyle": "normal",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/space-grotesk/space-grotesk-400-normal.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"Space Grotesk\"",
-							"fontStyle": "normal",
-							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/space-grotesk/space-grotesk-500-normal.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"Space Grotesk\"",
-							"fontStyle": "normal",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/space-grotesk/space-grotesk-600-normal.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"Space Grotesk\"",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/space-grotesk/space-grotesk-700-normal.woff2"
-							]
-						}
-					],
-					"fontFamily": "\"Space Grotesk\", sans-serif",
-					"name": "Space Grotesk",
-					"slug": "space-grotesk"
 				},
 				{
 					"fontFace": [
