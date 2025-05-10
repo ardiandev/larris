@@ -534,7 +534,7 @@
 			}
 		},
 		"color": {
-			"background": "var(--wp--preset--color--custom-white)"
+			"background": "var(--wp--preset--color--custom-light-gray)"
 		},
 		"elements": {
 			"link": {
