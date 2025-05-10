@@ -2,10 +2,50 @@
 	"settings": {
 		"appearanceTools": true,
 		"color": {
-			"palette": []
+			"custom": false,
+			"customGradient": false,
+			"defaultGradients": false,
+			"defaultPalette": false,
+			"palette": [
+				{
+					"color": "#000",
+					"name": "Black",
+					"slug": "custom-black"
+				},
+				{
+					"color": "#ffffff",
+					"name": "White",
+					"slug": "custom-white"
+				},
+				{
+					"color": "#e6074b",
+					"name": "Pink",
+					"slug": "custom-pink"
+				},
+				{
+					"color": "#00aaff",
+					"name": "Sky Blue",
+					"slug": "custom-sky-blue"
+				},
+				{
+					"color": "#333333",
+					"name": "Charcoal",
+					"slug": "custom-charcoal"
+				},
+				{
+					"color": "#e0e0e0",
+					"name": "Light Gray",
+					"slug": "custom-light-gray"
+				},
+				{
+					"color": "#a7f3d0",
+					"name": "Mint Green",
+					"slug": "custom-mint-green"
+				}
+			]
 		},
 		"layout": {
-			"contentSize": "640px",
+			"contentSize": "700px",
 			"wideSize": "1000px"
 		},
 		"spacing": {
@@ -494,7 +534,7 @@
 			}
 		},
 		"color": {
-			"background": "#f2f2f2"
+			"background": "var(--wp--preset--color--custom-white)"
 		},
 		"elements": {
 			"link": {
@@ -508,6 +548,7 @@
 			}
 		},
 		"spacing": {
+			"blockGap": "0px",
 			"padding": {
 				"bottom": "0px",
 				"left": "0px",
