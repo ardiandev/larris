@@ -519,7 +519,7 @@
 			},
 			"core/post-title": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--xx-large)"
+					"fontSize": "var(--wp--preset--font-size--medium)"
 				}
 			},
 			"core/site-tagline": {
