@@ -3,7 +3,7 @@ name: Deploy WordPress Larris Theme via FTP
 on:
   push:
     branches:
-      - main  # or whatever branch you use
+      - main  # Change if needed
 
 jobs:
   deploy:
@@ -21,11 +21,11 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: ${{ secrets.FTP_PATH }}
-          local-dir: ./   # Push all files from repo
+          local-dir: ./   # Deploy everything from repo root
           exclude: |
-            .git/
-            .github/
-            node_modules/
-            *.md
-            .gitignore
+            **/.git/**
+            **/.github/**
+            **/node_modules/**
+            **/*.md
+            **/.gitignore
 
