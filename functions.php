@@ -1,4 +1,9 @@
 <?php
+// Disable core block patterns
+remove_theme_support( 'core-block-patterns' );
+
+
+
 function mytheme_enqueue_styles() {
     wp_enqueue_style('larris-style', get_stylesheet_directory_uri() . '/style.css', array(), filemtime(get_stylesheet_directory() . '/style.css'));
 }

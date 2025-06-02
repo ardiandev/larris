@@ -1,0 +1,31 @@
+<?php
+/**
+ * Title: Header in the sub
+ * Slug: larris/header
+ * Categories: header
+ */
+?>
+
+<!-- wp:group {"metadata":{"categories":["header"],"patternName":"larris/header","name":"Header"},"backgroundColor":"custom-light-gray","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-custom-light-gray-background-color has-background"><!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|50","left":"var:preset|spacing|50"}}},"backgroundColor":"custom-white","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-custom-white-background-color has-background" style="padding-right:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:group {"style":{"spacing":{"padding":{"right":"0","left":"0","top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--40);padding-right:0;padding-bottom:var(--wp--preset--spacing--40);padding-left:0"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:site-logo {"width":50,"className":"is-style-rounded"} /-->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:site-title {"fontSize":"medium"} /-->
+
+<!-- wp:site-tagline /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:navigation {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}}} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:separator {"style":{"spacing":{"margin":{"top":"-5px"}}}} -->
+<hr class="wp-block-separator has-alpha-channel-opacity" style="margin-top:-5px"/>
+<!-- /wp:separator --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->

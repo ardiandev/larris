@@ -9,7 +9,7 @@
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"30px","bottom":"30px"},"padding":{"right":"0","left":"0"}}},"layout":{"type":"constrained","contentSize":""}} -->
 <div class="wp-block-group" style="margin-top:30px;margin-bottom:30px;padding-right:0;padding-left:0"><!-- wp:heading {"fontSize":"custom-1"} -->
-<h2 class="wp-block-heading has-custom-1-font-size">POSTS</h2>
+<h2 class="wp-block-heading has-custom-1-font-size">POSTS123</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
