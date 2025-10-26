@@ -277,14 +277,7 @@
 					"slug": "inter"
 				}
 			],
-			"fontSizes": [
-				{
-					"fluid": true,
-					"name": "Medium Larga",
-					"size": "26px",
-					"slug": "custom-1"
-				}
-			]
+			"fontSizes": []
 		},
 		"useRootPaddingAwareAlignments": true
 	},
@@ -293,8 +286,8 @@
 			"core/heading": {
 				"spacing": {
 					"margin": {
-						"bottom": "var(--wp--preset--spacing--30)",
-						"top": "var(--wp--preset--spacing--50)"
+						"bottom": "0",
+						"top": "0"
 					},
 					"padding": {
 						"bottom": "0",
@@ -323,11 +316,16 @@
 					"lineHeight": "1.7"
 				}
 			},
+			"core/post-excerpt": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)"
+				}
+			},
 			"core/post-title": {
 				"spacing": {
 					"padding": {
-						"bottom": "var(--wp--preset--spacing--40)",
-						"top": "var(--wp--preset--spacing--40)"
+						"bottom": "0",
+						"top": "0"
 					}
 				},
 				"typography": {
@@ -363,7 +361,7 @@
 		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--inter)",
-			"fontSize": "var(--wp--preset--font-size--medium)"
+			"fontSize": "var(--wp--preset--font-size--small)"
 		}
 	},
 	"templateParts": [
