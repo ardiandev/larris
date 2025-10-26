@@ -4,8 +4,11 @@
  * Slug: larris/portfolio
  * Categories: featured
  * Viewport width: 1400
- * Description: 
+ * Description: Hero section with intro and posts listing.
+ *
+ * @package Larris
  */
+
 ?>
 
 <!-- wp:template-part {"slug":"header","theme":"larris","tagName":"header"} /-->
