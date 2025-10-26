@@ -10,12 +10,11 @@
  */
 
 ?>
-
 <!-- wp:template-part {"slug":"header","theme":"larris","tagName":"header"} /-->
 
-<!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:heading {"level":1} -->
-<h1 class="wp-block-heading">About</h1>
+<!-- wp:group {"style":{"dimensions":{"minHeight":"85vh"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="min-height:85vh"><!-- wp:heading {"level":1,"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
+<h1 class="wp-block-heading" style="margin-top:var(--wp--preset--spacing--50)">About</h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -31,7 +30,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Are you interested in seeing what I build? Please head over to the <a href="http://localhost/ardianpradana/portfolio/" data-type="page" data-id="297">Projects Page</a> to explore my custom themes and plugins, including those I develop to extend WordPress core functionality.</p>
+<p>Are you interested in seeing what I build? Please head over to the <a href="<?php echo esc_url( home_url('/portfolio/') ); ?>" data-type="page" data-id="297">Projects Page</a>to explore my custom themes and plugins, including those I develop to extend WordPress core functionality.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
