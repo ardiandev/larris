@@ -1,10 +1,10 @@
 <?php
 /**
- * Title: Hero
+ * Title: Portfolio Page
  * Slug: larris/portfolio
  * Categories: featured
  * Viewport width: 1400
- * Description: Hero section with intro and posts listing.
+ * Description: Full page for portfolio web
  *
  * @package Larris
  */
