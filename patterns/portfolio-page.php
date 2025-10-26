@@ -71,8 +71,4 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:create-block/larris-dark-mode /--></div>
-<!-- /wp:group -->
-
 <!-- wp:template-part {"slug":"footer","theme":"larris","tagName":"footer"} /-->
