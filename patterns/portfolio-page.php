@@ -61,7 +61,7 @@
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"20px","bottom":"20px"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"right"}} -->
 <div class="wp-block-group" style="margin-top:20px;margin-bottom:20px"><!-- wp:paragraph {"align":"right"} -->
-<p class="has-text-align-right"><a href="<?php echo esc_url( home_url( '/blog/' ) ); ?>">View all →</a></p>
+<p class="has-text-align-right"><a href="<?php echo esc_url( home_url( '/posts/' ) ); ?>">View all →</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
