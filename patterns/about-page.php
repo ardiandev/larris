@@ -30,7 +30,8 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Are you interested in seeing what I build? Please head over to the <a href="<?php echo esc_url( home_url('/portfolio/') ); ?>" data-type="page" data-id="297">Projects Page</a>to explore my custom themes and plugins, including those I develop to extend WordPress core functionality.</p>
+<p>Are you interested in seeing what I build? Please head over to the <a href="<?php echo esc_url( home_url( '/portfolio/' ) ); ?>" data-type="page" data-id="297">Projects Page</a>to explore my custom themes and plugins, including those I develop to extend WordPress core functionality.</p>
+
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
