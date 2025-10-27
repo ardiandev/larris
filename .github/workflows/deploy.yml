@@ -3,7 +3,7 @@ name: Deploy Larris Staging Site
 on:
   push:
     branches:
-      - staging
+      - main
 
 jobs:
   web-deploy:
