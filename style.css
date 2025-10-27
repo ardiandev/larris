@@ -14,15 +14,6 @@ Text Domain: larris/
 Tags: 
 */
 
-.post-has-hover li > div {
-  border: 1px solid #393e46;
-}
-
-.post-has-hover li > div:hover {
-  background-color: #fff;
-  border: 1px solid #000000;
-}
-
 .header-logo-image {
   display: none;
 }
