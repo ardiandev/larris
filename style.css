@@ -22,6 +22,11 @@ a:hover {
   text-decoration: underline;
 }
 
+.wp-block-query-pagination {
+  display: flex;
+  justify-content: space-between;
+}
+
 .larris-post-excerpt {
   p {
     font-size: 15px;
